@@ -7,11 +7,12 @@ In this challenge, I used SSPs scenarios based on ScenarioMIP project.
 🧰 Tools & Libraries\
 This project uses the following R packages:
 
+library(raster)\
+library(rasterVis)\
+library(rworldxtra)\
 library(sf)\
-library(ggplot2)\
 library(rnaturalearth)\
-library(rnaturalearthdata)\
-library(dplyr)\
-library(rio)\
+library(ggplot2)\
+library(dplyr)
 library(extrafont)\
-library(ggspatial)
+library(RColorBrewer)\
